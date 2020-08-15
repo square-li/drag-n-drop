@@ -2,8 +2,20 @@
   "name": "drag-n-drop",
   "version": "1.0.0",
   "description": "A library that helps you reorder a list.",
-  "main": "index.js",
   "author": "lixiao.bill@gmail.com",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
