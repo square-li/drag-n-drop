@@ -1,0 +1,9 @@
+{
+  "name": "drag-n-drop",
+  "version": "1.0.0",
+  "description": "A library that helps you reorder a list.",
+  "main": "index.js",
+  "author": "lixiao.bill@gmail.com",
+  "license": "MIT",
+  "private": true
+}
