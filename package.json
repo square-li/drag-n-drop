@@ -1,16 +1,24 @@
 {
-  "name": "drag-n-drop",
-  "version": "1.0.0",
+  "name": "@square-li/drag-n-drop",
+  "version": "1.0.2",
   "description": "A library that helps you reorder a list.",
+  "keywords": [
+    "drag",
+    "drop",
+    "typescript"
+  ],
   "author": "lixiao.bill@gmail.com",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "prepublish": "tsc",
     "build": "webpack --config webpack.config.js",
     "start": "webpack --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/square-li/drag-n-drop"
   },
   "devDependencies": {
     "serve": "^11.3.2",
