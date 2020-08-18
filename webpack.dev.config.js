@@ -18,7 +18,8 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'example'),
     library: 'DragNDrop',
-    libraryTarget:'umd',
+    libraryTarget: 'umd',
     umdNamedDefine: true,
   },
+  watch: true
 };

@@ -1,0 +1,23 @@
+$highLight: #f6abb6;
+$default: #eee3e7;
+[data-dnd-container] {
+
+  [data-dnd-item] {
+    border: 2px solid $default;
+    background-color: $default
+  }
+
+  &.container-drag-over {
+    [data-dnd-item] {
+      border: 2px dashed $highLight;
+
+      &.item-drag-enter {
+        background-color: $highLight;
+        transition: background-color;
+      }
+
+    }
+  }
+
+
+}

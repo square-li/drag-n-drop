@@ -9,7 +9,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack --config webpack.dev.config.js"
   },
   "devDependencies": {
     "serve": "^11.3.2",

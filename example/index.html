@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drag-n-Drop</title>
+    <script src="bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div[data-dnd-container] {
+            padding: 1rem;
+            border: 2px solid black
+        }
+
+        div[data-dnd-item] {
+            padding: 0.2rem;
+            border: 2px solid black;
+            margin: 0.2rem;
+        }
+
+    </style>
+</head>
+<body>
+<div data-dnd-container>
+    <div data-dnd-item id="1">1</div>
+    <div data-dnd-item id="2">2</div>
+    <div data-dnd-item id="3">3</div>
+    <div data-dnd-item id="4">4</div>
+</div>
+<script>
+  DragNDrop.init();
+</script>
+</body>
+</html>

@@ -1,5 +1,1 @@
-import {DragNDrop} from './DragNDrop';
-
-window.addEventListener('load', ()=> {
-    const dragNDrop = new DragNDrop()
-})
+export { init } from './DragNDrop'
